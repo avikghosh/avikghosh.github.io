@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+## Welcome to avikghosh.github.io
 
-You can use the [editor on GitHub](https://github.com/avikghosh/avikghosh.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Hi There! I am Avik Ghosh, currently working as Senior QA Engineer at [bankbazaar.com](https://www.bankbazaar.com).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### appium-gradle-demo [View on Github](https://github.com/avikghosh/appium-gradle-demo)
+This is a simple demo of using appium for Android Test Automation. I have used Java, TestNG and Gradle, Android Emulator for this demo.
 
-### Markdown
+This demo test opens up the Android default dialer application and then clicks on the Add Favorite link. Then it verifies that Empty Contacts message. (_Assuming you have no contacts in your emulator_)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+Assuming you have appium and an Android Emulator running, you clone this repo and run the demo with the following steps
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```bash
+cd path/to/project
+./gradlew clean build
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/avikghosh/avikghosh.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
